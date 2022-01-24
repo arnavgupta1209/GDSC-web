@@ -14,6 +14,9 @@ body {
 
 
 header {
+    position: fixed;
+    width: 100%;
+    height: auto;
     background-color: #1f2937;
     color: white;
     display: flex;
@@ -58,6 +61,7 @@ button {
 
 .content {
     padding: 1em;
+    padding-top: 3em;
     flex-grow: 1;
     display: flex;
 }
@@ -121,6 +125,64 @@ button {
     justify-content: space-around;
     align-items: center;
     padding-bottom: 250px;
+}
+
+
+.skills {
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.skills-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.skill-cardspace {
+    display: flex;
+    flex-grow: 1;
+}
+
+
+.skill-card {
+    background-color: white;
+    flex-grow: 1;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-bar {
+    width: 50%;
+    height: 60%;
+    background-color: #3882F6;
+}
+
+.python {
+    height: 75%;
+}
+
+.html {
+    height: 55%;
+}
+
+.css {
+    height: 55%;
+}
+
+.js {
+    height: 70%;
+}
+
+.active-head {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .hide {
