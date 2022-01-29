@@ -74,6 +74,7 @@ button {
     flex-grow: 1;
     padding-top: 100px;
     justify-content: space-around;
+    align-items: center;
 }
 
 .head-text {
@@ -87,11 +88,13 @@ button {
     color: grey;
     padding: 20px;
     padding-left: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 #head-pic {
     width: 20em;
-    height: 15em;
+    height: 25em;
     padding: 20px;
     border-radius: 50px;
 }
@@ -110,6 +113,9 @@ button {
 
 .hobbies {
     flex-direction: column;
+    padding-left: 0%;
+    padding-left: 0%;
+    padding-bottom: 0%;
 }
 
 .hobbies-head {
@@ -117,6 +123,7 @@ button {
     justify-content: center;
     align-items: center;
     padding: 1em;
+    background-color: whitesmoke;
 }
 
 .hobbies-content {
@@ -125,6 +132,14 @@ button {
     justify-content: space-around;
     align-items: center;
     padding-bottom: 250px;
+    background-color: white;
+}
+
+.hobbies-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -159,7 +174,7 @@ button {
 }
 
 .card-bar {
-    width: 50%;
+    width: 25%;
     height: 60%;
     background-color: #3882F6;
 }
