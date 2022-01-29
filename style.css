@@ -164,13 +164,17 @@ button {
 .skill-cardspace {
     display: flex;
     flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
 .skill-card {
     background-color: white;
-    flex-grow: 1;
+    flex-grow: 0;
     margin: 10px;
+    min-width: 20em;
+    min-height: 70vh;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
