@@ -132,16 +132,17 @@ button {
 
 .hobbies-content {
     display: flex;
-    flex-grow: 0;
+    flex-wrap: wrap;
+    flex-grow: 1;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 250px;
     background-color: white;
-    flex-wrap: wrap;
 }
 
 .hobbies-card {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
