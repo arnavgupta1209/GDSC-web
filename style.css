@@ -130,6 +130,7 @@ button {
     justify-content: center;
     align-items: center;
     padding: 1em;
+    width: 100vh;
     padding-top: 2em;
     background-color: whitesmoke;
 }
